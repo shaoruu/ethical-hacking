@@ -1,3 +1,3 @@
-# ethical-hacking
+# Ethical Hacking
 ---
-### ARP Spoofer
+## There are individual README.md's in each sub-directory containing my notes.
