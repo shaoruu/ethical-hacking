@@ -1,0 +1,22 @@
+what is arp_spoofing?
+ - allows us to redirect the flow of packets
+ - instead of flowing right to victim's computer, we can redirect it to flow through hacker computer
+ - that means we will get to read the informations for the victim
+
+arp is used so that clients can identify other connected clients and get their mac address
+ - clients connect to others with mac addresses
+ - run "arp -a" to see all the linked devices
+
+basically works like
+ - tell router that my ip is the victims ip
+ - tell the victims computer that my ip is the routers ip
+ - the victims gonna think that im the router and the router will think that im the victim
+ 	- i basically act like a mailman
+	- puts me as the man in the middle
+
+why is arp spoofing possible?
+ - clients accept responses even if they did not send a request
+ - clients trust response without any form of """varification"""
+ - arp protocol is just shit
+
+you'll need to run the spoofer twice in order to fool both the router and the victim
